@@ -77,10 +77,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-
-            <include android:id="@+id/Dash1"  layout="@layout/dashboard_item_1"/>
             <include android:id="@+id/Dash2" layout="@layout/dashboard_item_2"/>
-            <include layout="@layout/dashboard_item_1"/>
+            <include android:id="@+id/Dash1"  layout="@layout/dashboard_item_1"/>
+
+
+            <include layout="@layout/dashboard_item_3" />
 
         </LinearLayout>
 
